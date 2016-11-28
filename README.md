@@ -6,15 +6,18 @@ An Android application that allows the user to easily manage character informati
 - Ethan Goldman
 - Anthony Rinaldi
 
-## Progress Report 1
+## Progress Report 2
 
 ### Tasks
-Most of the tasks have been completed by me, since there are a lot of things I had to get working before tasks could be assigned to the rest of my team, such as the CharacterInfo class, which is still in progress. I've had my other team members working on researching how to implement later features while they wait for me to complete my tasks.
+A lot of the progress made was in adding content to the existing activities and adding the logic behind that content. The new content was all in CharacterSheetActivity, CharacterEquipmentActivity, and CharacterSkillsActivity.
 
 - Darin Beaudreau
--- Created the MainActivity, CreateCharacterActivity, CharacterMainActivity, CharacterSheetActivity, CharacterSpellbookActivity, PreparedSpellsFragment, MySpellbookFragment, FullSpellbookFragment, SpellbookTabAdapter, SpellListAdapter, GlobalState, Preferences, CharacterInfo, CharacterRace, CharacterClass, CharacterAlignment, AbilityScore, DiceRoller, and Spell classes, as well as the related layouts.
+-- Added new fields to the CharacterSheetActivity layout and Java file, and added new fields to the CharacterInfo class and logic to the activity to accomodate these new fields.
+-- Added save/load feature for saving and loading characters. No interface yet, but the logic is there (although untested).
+-- Added fields to CharacterInfo class to accomodate tasks given to Anthony and Ethan.
 - Ethan Goldman
--- Created the CharacterEquipmentActivity class and related layout.
+-- Created basic layout for content in the CharacterEquipmentActivity and a new activity to add/subtract money from the player's total.
+-- Added Coins and Equipment classes for use in the CharacterEquipmentActivity. Coins class works fine, but Equipment class has yet to be used in implementation in the actual activity. This will be in the next update.
 - Anthony Rinaldi
--- Is currently researching how to use the Google Nearby API to find other devices nearby using the app so we can transfer character sheets to other users.
--- Will be creating the CharacterSkillsActivity and related layout when I add the proper members and methods to the CharacterInfo class so he can access them from the activity.
+-- Added fields in CharacterSkillsActivity for all game skills, as well as buttons to "roll" these skills.
+-- Will be adding logic behind the layout in the next update.
