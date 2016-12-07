@@ -1,23 +1,13 @@
 # Adventurers-Archive
 An Android application that allows the user to easily manage character information for D&amp;D 5th Edition.
+This app was created during the Fall 2016 semester as our semester project for Software Engineering II.
 
 ### Team Members
-- Darin Beaudreau (Project Leader)
-- Ethan Goldman
-- Anthony Rinaldi
+- Darin Beaudreau (Project Leader, Programming)
+- Ethan Goldman (Programming, Project Idea)
+- Therese Kuczynski (Team Report, Database)
 
-## Progress Report 3
+### Introduction
+Our project will be based around collating information about Dungeons & Dragons 5th Edition, and then making an Android app to present this information to the user in a convenient format so that they have the information easily available on their phone. 
 
-### Tasks
-Fortunately we have implemented about 80% of the app at this point. The last thing to do before presentation day is the CharacterSpellbookActivity, which is well underway. Most of what is left to do is querying the database for the information we want and then working with it, as the database is mostly functional. Everyone else has completed their tasks.
-
-- Darin Beaudreau
-    - Completed the Character Sheet activity, which is now fully functional. It was mostly fine-tuning how everything interacts with the CharacterInfo class and making the sheet itself look pretty.
-    - Created an XML parser for the Spell information contained in phb_spells.xml.
-    - Began implementation of the Spells database, which is created from the XML data if the database does not already exist, and then queried.
-- Ethan Goldman
-    - Completed the Equipment activity. Specifically, he made the equipment items clickable so you can see more information about the equipment. He also implemented the ability to delete equipment from your list.
-    - Added total weight to the Equipment activity so you can see how much gear you're carrying.
-- Anthony Rinaldi
-    - Completely implemented the Skills activity, including creating the layout with all components and adding the logic behind the buttons, which pulls the information from the CharacterInfo object so a Toast can be created showing the results of a "skill check", which is the result of a random number 1-20 added to the bonus the character gets to that skill.
-    - Made a few quick patches to the appearance of Skill activity text and components.
+The app will include a “character sheet” of sorts that will allow the user to view and edit their character statistics, and will have tools such as an equipment list, so that the user can keep track of their equipment, and even sell it. We will also implement a “spellbook” so that users can keep track of what spells they have prepared, and which spells they know. And finally, a skills tool to let the player roll skill checks. One feature we had originally planned, but have scrapped, was a status tracker to keep track of important information during combat.
