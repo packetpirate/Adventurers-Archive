@@ -21,17 +21,17 @@
     <string name="unequipped">Not Equipped</string>
     <string name="notequippable">   </string>
     <string name="equipbtnlabel">Equip</string>
-    <string name="unequipbtnlabel">Unquip</string>
+    <string name="unequipbtnlabel">Unequip</string>
     <string name="attuned"> Attune</string>
     <string name="notattunable">   </string>
 
     <string name="weight">Wt. : </string>
     <string name="pound"> lb</string>
-    <string name="quantity">Quanity: </string>
+    <string name="quantity">Quantity: </string>
     <string name="value">Value: </string>
     <string name="savelbl">Save</string>
     <string name="trash">Trash</string>
-    <string name="equipable">Equipable</string>
+    <string name="equipable">Equippable</string>
     <string name="attunable">Attunable</string>
     <string name="tot_wt_lbl">Total Weight: </string>
     <string name="under5str">Light Load</string>
