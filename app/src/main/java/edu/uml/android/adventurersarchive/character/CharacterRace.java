@@ -9,11 +9,12 @@ import java.io.Serializable;
  * Created by Darin on 11/3/2016.
  */
 public enum CharacterRace implements Serializable {
-    DWARF("Dwarf"), ELF("Elf"),
+    CHANGELING("Changeling"), DWARF("Dwarf"), ELF("Elf"),
     HALFLING("Halfling"), HUMAN("Human"),
     DRAGONBORN("Dragonborn"), GNOME("Gnome"),
     HALFORC("Half-Orc"), HALFELF("Half-Elf"),
-    TIEFLING("Tiefling");
+    MINOTAUR("Minotaur"), SHIFTER("Shifter"),
+    TIEFLING("Tiefling"), WARFORGED("Warforged");
 
     private String name;
 

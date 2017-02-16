@@ -9,12 +9,14 @@ import java.io.Serializable;
  * Created by Darin on 11/3/2016.
  */
 public enum CharacterClass implements Serializable {
+    ARTIFICER("Artificer", new AbilityScore.Scores[] {AbilityScore.Scores.CONSTITUTION, AbilityScore.Scores.INTELLIGENCE}),
     BARBARIAN("Barbarian", new AbilityScore.Scores[] {AbilityScore.Scores.STRENGTH, AbilityScore.Scores.CONSTITUTION}),
     BARD("Bard", new AbilityScore.Scores[] {AbilityScore.Scores.DEXTERITY, AbilityScore.Scores.CHARISMA}),
     CLERIC("Cleric", new AbilityScore.Scores[] {AbilityScore.Scores.WISDOM, AbilityScore.Scores.CHARISMA}),
     DRUID("Druid", new AbilityScore.Scores[] {AbilityScore.Scores.INTELLIGENCE, AbilityScore.Scores.WISDOM}),
     FIGHTER("Fighter", new AbilityScore.Scores[] {AbilityScore.Scores.STRENGTH, AbilityScore.Scores.CONSTITUTION}),
     MONK("Monk", new AbilityScore.Scores[] {AbilityScore.Scores.STRENGTH, AbilityScore.Scores.DEXTERITY}),
+    MYSTIC("Mystic", new AbilityScore.Scores[] {AbilityScore.Scores.INTELLIGENCE, AbilityScore.Scores.WISDOM}),
     PALADIN("Paladin", new AbilityScore.Scores[] {AbilityScore.Scores.WISDOM, AbilityScore.Scores.CHARISMA}),
     RANGER("Ranger", new AbilityScore.Scores[] {AbilityScore.Scores.STRENGTH, AbilityScore.Scores.DEXTERITY}),
     ROGUE("Rogue", new AbilityScore.Scores[] {AbilityScore.Scores.DEXTERITY, AbilityScore.Scores.INTELLIGENCE}),
